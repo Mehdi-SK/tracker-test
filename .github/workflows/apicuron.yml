@@ -16,4 +16,3 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           apicuron-url: ${{ secrets.APICURON_URL }}
           apicuron-token: ${{ secrets.APICURON_TOKEN }}
-          dry-run: true

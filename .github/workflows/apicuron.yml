@@ -11,7 +11,7 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - uses: <tracker-owner>/contribution-event-tracker@main
+      - uses: Mehdi-SK/contribution-event-tracker@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           apicuron-url: ${{ secrets.APICURON_URL }}
